@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F6CD76;
+
+}
+
+.container{
+    width: 800px;
+    height: 450px;
+    background-color: #fff;
+    margin: 100px auto auto;
+    display: flex;
+}
+
+/* MY WALLET  */
+.my__wallet{
+    padding: 50px;
+    background-color: #F2F2F2;
+    width: 220px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.wallet__text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wallet__card{
+    background-color: #fff;
+    padding: 5px;
+    margin: 30px auto;
+    border: 1px solid #acaaaa;
+    border-radius: 5px;
+    color: #acaaaa;
+}
+
+/* CURRENT BALANCE  */
+
+.current__balance{
+    padding: 50px;
+    width: 380px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.balance__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #acaaaa;
+}
+h2{
+    color: #333333;
+    font-weight: 400;
+}
+
+.balance__header strong{
+    font-size: 2rem;
+}
+
+
+.balance__middle img{
+    border-radius: 100px;
+    border: 2px solid #acaaaa
+}
+
+.balance__middle ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+p{
+    margin: 0;
+}
+
+.balance__middle p{
+    color: #acaaaa;
+}
+
+h4{
+    color: #28527a;
+}
+
+.plus{
+    color: #5aa469;
+}
