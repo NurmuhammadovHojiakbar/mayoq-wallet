@@ -32,7 +32,7 @@ body{
 }
 .my__wallet::-webkit-scrollbar-thumb{
     display: none;
-    border-radius: 4px;
+    border-radius: 0px;
     background-color: #333333;
 }
 
