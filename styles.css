@@ -26,6 +26,19 @@ body{
     overflow-y: auto;
     overflow-x: hidden;
 }
+
+.my__wallet::-webkit-scrollbar{
+    width: 8px;
+}
+.my__wallet::-webkit-scrollbar-thumb{
+    display: none;
+    border-radius: 4px;
+    background-color: #333333;
+}
+
+.my__wallet:hover::-webkit-scrollbar-thumb{
+    display: block;
+}
 .wallet__text{
     display: flex;
     justify-content: space-between;
@@ -45,10 +58,18 @@ body{
     background-color: #fff;
     padding: 5px;
     margin: 30px auto;
-    border: 1px solid #acaaaa;
+    border: 2px solid #acaaaa;
     border-radius: 5px;
     color: #acaaaa;
 }
+.wallet__card:nth-child(2){
+    border-color: #28527a;
+}
+
+.wallet__card:hover{
+    border: 2px solid #28527a;
+}
+
 
 /* CURRENT BALANCE  */
 
@@ -57,6 +78,19 @@ body{
     width: 380px;
     overflow-y: auto;
     overflow-x: hidden;
+}
+
+.current__balance::-webkit-scrollbar{
+    width: 8px;
+}
+.current__balance::-webkit-scrollbar-thumb{
+    display: none;
+    border-radius: 4px;
+    background-color: #333333;
+}
+
+.current__balance:hover::-webkit-scrollbar-thumb{
+    display: block;
 }
 
 .balance__header{
